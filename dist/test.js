@@ -58,7 +58,7 @@ function test() {
       });
 
       it('should have style', function () {
-        var styleText = undefined;
+        var styleText = void 0;
 
         locals.rendered.replace(/style="(.+);"/, function (matches, style) {
           styleText = 'flex {' + style + '}';
