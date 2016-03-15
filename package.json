@@ -2,7 +2,7 @@
   "name": "reacted-modal",
   "version": "1.0.7",
   "description": "reacted-modal ===",
-  "main": "dist/components/modal.js",
+  "main": "dist/components/modal",
   "scripts": {
     "test": "redtea dist/test.js",
     "babel": "babel --out-dir dist app",
@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cassis": "^1.0.2",
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
   },
@@ -19,6 +20,7 @@
     "babel-preset-es2015": "^6.5.0",
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.5.0",
+    "cassis": "^1.0.2",
     "css": "^2.2.1",
     "redtea": "^3.4.1",
     "should": "^8.2.2",
