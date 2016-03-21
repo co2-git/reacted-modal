@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cassis": "^1.0.2",
+    "cassis": "^1.0.3",
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
   },
