@@ -89,11 +89,7 @@ var Modal = function (_React$Component) {
         _react2.default.createElement(
           'div',
           { className: 'reacted-modal-box', onClick: this.blockToggle.bind(this) },
-          _react2.default.createElement(
-            'h1',
-            null,
-            'Hey!'
-          )
+          this.props.children
         )
       );
     }

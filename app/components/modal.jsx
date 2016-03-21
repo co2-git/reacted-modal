@@ -77,7 +77,7 @@ class Modal extends React.Component {
     return (
       <div ref="view" className={ classes.join(' ') } onClick={::this.toggle}>
         <div className="reacted-modal-box" onClick={::this.blockToggle}>
-          <h1>Hey!</h1>
+          { this.props.children }
         </div>
       </div>
     );

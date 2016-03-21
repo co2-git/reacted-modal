@@ -1,6 +1,6 @@
 {
   "name": "reacted-modal",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "reacted-modal ===",
   "main": "dist/components/modal",
   "scripts": {
